@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Winta Webpage</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+       <link rel="stylesheet" href="variables.css">
+       <link rel="stylesheet" href="nesting.css">
+       <link rel="stylesheet" href="styles.css">
+</head>
+      <!-- <h1> Infant Incubator</h1> -->
+      <div class="alert alert-primary h1size" role="alert">
+      Infant Incubator
+      </div>
+
+      <h2 class="subsection"> About myself</h2>
+        <p class="center">  Hello! my name is Winta Gebreslassie and I'm a senior Biomedical Engineering
+          student at the University of The District of Columbia. Currently
+          my team and I are designing and simulating our senior capston project. Our design
+          project is Infant Incubator that works without electricity aiming
+          for a people who lives in a low income comminity. Our heat source is
+          Phase Change Material (PCM). </p>
+
+          <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                    <a href="Abstract.html">Visit Abstract</a>
+                </div>
+                <div class="col-sm">
+                  <a href="Introduction and Motivation.html">Visit Introduction and Motivation <a/>
+                </div>
+                <div class="col-sm">
+                   <a href="Objective.html">Visit Objective</a>
+                </div>
+                <div class="col-sm">
+                   <a href="Methodology.html">Visit Methodology </a>
+                </div>
+                <div class="col-sm">
+                  <a href="Concept considered.html">Visit Concept considered</a>
+                </div>
+              </div>
+         </div>
+
+         <h2>Topics</h2>
+         <ul>
+           <li><a href="#Product Definition">Product Definition</a></li>
+           <li><a href="#Engineering Specification">Engineering Specification</a></li>
+           <li><a href="#Solution and Engineering estimation">Solution and Engineering estimation</a></li>
+           <li><a href="#Engineering Design">Enginerring Design</a></li>
+         </ul>
+         <h2>Sub-Topics</h2>
+         <ol>
+           <li><a href="#Architecture1">Architecture 1</a></li>
+           <li><a href="#Architecture2">Architecture 2</a></li>
+           <li><a href="#Engineering Discusion">Engineering Discusion</a></li>
+           <li><a href="#Conclusion">Conclusion</a></li>
+         </ol>
+        <h2 id="Product Definition">Product Definition</h2>
+        <p>People that live in a low-income countries,half of the babies born at
+           or below 32 weeks die due to a lack of feasible, cost-effective care,
+           such as warmth, breastfeeding support, and basic care for infections
+           and breathing difficulties.According to the World Health Organization
+           (WHO), An estimated 15 million babies are born too early every year.
+           That is more than 1 in 10 babies. Approximately 1 million children die
+           each year due to complications of preterm birth. Increase in birth rate
+           of premature babies with lower birth weight and other defects is a major
+           factor that drives us to build our neonate incubator. Our main goal is
+            to design and build an efficient and cost effective incubator that
+            works without electricity to meet people that live in a low income
+            countries.<br>
+Neonate incubator primarily provide humidity, warmth and oxygen in a controlled
+environment. The infant incubator is consists of an enclosed chamber, with a small
+mattress on the top covered by a rigid plastic cover. The chamber protects the baby
+ from noise, dust, and infection. To achieve all these our incubator will be made
+ with wood for the base, and acrylic top with a front door that allows parents to
+ put the neonate inside. Phase Change Material will be used to generate the heat.
+ Heat for its operation can be provided by PCM source.In addition of air blower
+ fan to circulate the air inside the incubator. Once set, the temperature is
+ maintained automatically with the control system which makes the system easy to
+ operate. The system will control it automatically via sensors placed inside the
+ incubator. It is also designed to address unique challenges present in the places it
+is intended to be used. The market for our product will be mainly for people who
+live in low-income area. This market has the greatest ability to take advantage
+of the type of incubator that we will design. In these places, there is a need
+for incubators and there is no need access to electricity.</p>
+
+
+       <h1>Solid-Works of Incubator</h1>
+       <h2 id="Architecture1">Architecture 1</h2>
+        <p>The team come up with two different architectures. The first
+          architecture was considered that the PCM would be the base of the
+          mattress of the baby, where natural air flow would flow inside the
+          incubator and transfer heat with the PCM while inside. The issue with
+          this designs are that the baby would be disturb every time the PCM
+          should be removed from the incubator, and the high efficiency
+          particular air (HEPA) filter would interfered in the air flow.
+          For the filter solution, we discussed the use of an external U.V light
+           that could kill the bacteria of the air that is flowing to the baby area.
+        </p>
+
+        <img src="architecture.jpg"alt= "CAD models" style="max-width:100%;height:auto;">
+      <h3>Phase change material inside incubator</h3>
+
+ <h2 id="Architecture2">Architecture 2</h2>
+<p>The second architecture was considered that our PCM would be outside of the
+  incubator in order to not disturb the baby and do not lose the heat because the
+   incubator would not be opened for heat source re-heat step. The PCM would be
+   inside a box and it would work as a heat exchanger, where copper pipe would
+   flow through the phase change material before flow through the inside of the baby.
+   The cons of this architecture is that there would be need a subsystem to spin
+   a fan so air could go through the pipeline. However, the HEPA filter could be
+   applied once air is forced flowing to the incubator.
+ </p>
+ <img src="img_architecture2.jpg"style="max-width:100%;height:auto;">
+ <h3> Phase change material inside incubator</h3>
+
+        <h1>Engineering Specification</h1>
+        <h2 id="Engineering Discussion">Engineering Discusion</h2>
+        <p>The design parameters were established upon researching the average
+          size of new born baby, the needs of premature baby, and  the standard
+           safety of FDA. Temperature range (36.5 C-kg/for babies in +-30 weeks
+           and 37.2 C-kg/ in +-28 weeks).
+It is better that the incubator is light in weight so that it can be  portable
+at  the  same  time  provides  strong  support  for  the components   used  and   can   bear   the   weight   of   the   infant. Isolation  of  the  compartment  where  the  baby  is  kept  from  the controlling  unit  is  a  necessary  requirement.  The  incubator design can be divided into four subsystems: structural support, enclosure,  shell,  and  bed.  The  structural  support  is  the  device that accommodate the other subsystems and the preterm infant. Design Parameters: Length 40 cm, Height 60 cm, Width 40 cm thickness  of  material  5mm.  Control  unit  inside
+the  box  will have  a dimension  of  10  cm  x  30  cm  x  30  cm. The control
+ unit is responsible  for  holding  the  heat  exchanger and the  electrical
+ components  needed  for  the  incubator  to  work.  The  shell  is responsible
+  for  retaining  the  heated  air,  preventing  airborne infections  from
+  reaching  the  preterm  infant,  and  venting  the stagnant air. The  bed is
+  intended to keep the  preterm infant in place. The figure below shows  image
+   of  the  3D  model  of incubator structure designed by Computer Aided Design.
+So,we chose the height ,length and width dimensions based the new born premature
+baby size which is roughly 16 inches and 3lbs. The normal human body temperature
+is 37 0C,so the temperature inside the incubator has to be same since we do not
+know yet baby body temperature.Since it's a premature baby his/her skin is too
+soft and try quick to avoid the danger we set the humidity from 50-90\% to keep
+ baby skin moisturize.We decide to have 2 portholes and 2 main doors to ease
+  carrying the ICU's and also.It's easy to check on the baby instead open the
+  top which save the baby heat.The main reason we chose to make this incubator
+  lbs 20 because it designs for low-income and villages people, it has to be
+  light and easy to carry around.</p>
+        <table class="engineeringSpecification">
+          <tr>
+            <th>Design parameter</th>
+            <th>Dimention</th>
+            <th>Unit</th>
+          </tr>
+          <tr>
+            <td>Height</td>
+            <td>40</td>
+            <td>cm</td>
+          </tr>
+          <tr>
+            <td>Length</td>
+            <td>50</td>
+            <td>cm</td>
+         </tr>
+         <tr>
+           <td>Width</td>
+           <td>40</td>
+           <td>cm</td>
+          </tr>
+          <tr>
+            <td>Weight</td>
+            <td>20</td>
+            <td>kg</td>
+          </tr>
+          <tr>
+            <td>Canopy</td>
+            <td>2</td>
+            <td>portholes</td>
+          </tr>
+          <tr>
+            <td>Humidity</td>
+            <td>50-90</td>
+            <td>%</td>
+          </tr>
+          <tr>
+            <td>Temperature</td>
+            <td>36.5-37.2</td>
+            <td>C</td>
+          </tr>
+          <tr>
+            <td>Air velocity</td>
+            <td>0.35</td>
+            <td>m/s</td>
+          </tr>
+          <tr>
+            <td>HEPA Filter</td>
+            <td>99.995</td>
+            <td>%</td>
+          </tr>
+          <tr>
+            <td>Infant mattress</td>
+            <td>67x35</td>
+            <td>lxw</td>
+          </tr>
+
+        </table>
+
+       <h2 id=SolutionandEngineeringestimation>Solution and Engineering estimation</h2>
+       <p>
+         We are trying to isolate area inside the environment of incubator with
+         no dust ,bacteria ,and has the ability to control temperature, humidity,
+         and oxygen to remain them in acceptable levels. We design to keep baby
+         warm,to monitor many of their vital body functions like heart rate, blood
+         pressure,oxygen saturation and to support their breathing if necessary.
+         Regarding the temperature and humidity control, incubators should minimize
+         heat loss from the neonate and eddies around him/her.The main physical
+         variables affecting the incubator environment are temperature, humidity,oxygen.<br>
+Our mathematical model shows that our main heat losses of the system are conduction
+ and convection n the incubator walls and due radiation. In order to decrease
+ the heat losses of our system we could change our design by changing the material
+  of the walls leaving one or two main walls made by acrylic so there is still
+  visualization of the baby without opening the incubator. Selecting the right
+  material for this project is essential in order to keep it a low cost but still
+  efficient.<br>
+Calculations must be made in order to analyse if the peltier and seebeck effect
+could be applied in order to generate electricity from the difference of temperature
+of our heat-source and the outside air. Other system discussed was the convertion of
+potential energy (using mass and height) to rotate the fan. Further discussion would
+be made with the instructor Dr. Nitsche so the group can come up with the solution.
+</p>
+
+<h2 id="Engineering Design">Engineering Design</h1>
+<p>
+  Manufacturers respond to these demands by introducing double-walled incubators
+  to reduce an infant’s radiated heat loss. Active humidification systems will
+  develop for the precise control of humidity. State of the art microprocessor-based
+  controls enabled precise temperature settings and a variety of alarms.
+  Sophisticated air flow systems will design to maintain temperature stability
+  and minimize the effects of opened access doors. Parents will give the option
+  of automatically maintaining heater temperature either by measuring the chamber
+  or the infant’s temperature. Many problems like hypothermia, dehydration will
+  occur in infants if they have less humidity.These problems can be reduced if
+  the preterm infants are nursed at high relative humidity. Also the skin temperature
+   increases and the distribution of surface temperature will be more if an infant
+   is nursed at a high humidity.
+</p>
+
+<div>
+  <h2 id="Conclusion and Future work">Conclusion and Future work</h2>
+  <p>
+  Our conclusion is that our project is doable. We can design a low cost incubator
+  using phase change material as a heat source. Future work for MECH 492 will be
+  designing a subsystem that can generate electricity or a mechanism that can spin
+  the fan so air can be forced through our PCM; make mathematical model with upgraded
+  materials in order to reduce the heat losses due radiation and convection; build the
+  electric circuit of our humidifier and temperature display; construct a CAD model
+  after the mathematical model is with the desirable results and simulate our incubator
+  using COMSOL. We are hoping that the COVID-19 settle during the semester and maybe
+  1our class can be hybrid during the summer 2020 so we can build our project.
+  </P>
+</div>
+
+
+</body>
+</html>
